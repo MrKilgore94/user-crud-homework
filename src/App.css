@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(63, 63, 63);
+}
+
+button {
+  border-radius: 30px;
+  border-color: black;
+}
+
+.Edit {
+  background-color: rgb(25, 255, 4);
+  color: rgb(0, 0, 0);
+
+}
+ .Cancel{
+   background-color: rgb(255, 0, 0);
+ }
+
+ .Loading {
+   background-color: rgb(192, 154, 48);
+
+ }
+
+ .Get {
+   background-color: green;
+   color: white;
+ }
+
+ .title {
+   color: white;
+   text-decoration: underline;
+  text-underline-offset: 2px;
+ }
+
+ .userString {
+   color: white;
+ }

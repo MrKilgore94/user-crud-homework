@@ -20,7 +20,7 @@ console.log('-------------------------------------------------------------------
 
 const about = (foods) => {
   foods = foods.map((x) => {
-    return `${x.name}: ${x.price}$`;
+    return `${x.name}: ${x.price}$, id is: ${x.id}`;
   });
   return foods;
 };

@@ -1,0 +1,52 @@
+#NewUserBox {
+  border: solid green;
+  margin: 40px;
+  padding: 20px;
+  border-width: 4px;
+  background-color: rgb(88, 136, 88);
+  border-radius: 50px;
+  
+   
+}
+
+#UserBox {
+  border: solid rgb(0, 0, 0);
+  border-width: 4px;
+  background-color: rgb(248, 186, 135);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 50px;
+
+
+}
+#EditBox {
+  border: solid rgb(0, 0, 0);
+  border-width: 4px;
+  background-color: rgb(247, 164, 96);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 50px;
+
+
+}
+
+#avatar {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+#email {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+#name {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+#newUser {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+#editUser {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
