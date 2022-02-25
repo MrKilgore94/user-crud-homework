@@ -49,26 +49,37 @@ button {
 .Edit {
   background-color: rgb(25, 255, 4);
   color: rgb(0, 0, 0);
+  font-family: cursive;
+
 
 }
  .Cancel{
    background-color: rgb(255, 0, 0);
+  font-family: cursive;
+
  }
 
  .Loading {
    background-color: rgb(192, 154, 48);
+  font-family: cursive;
+
 
  }
 
  .Get {
    background-color: green;
    color: white;
+  font-family: cursive;
+
  }
 
  .title {
    color: white;
    text-decoration: underline;
   text-underline-offset: 2px;
+  font-family: cursive;
+
+
  }
 
  .userString {

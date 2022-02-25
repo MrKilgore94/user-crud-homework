@@ -1,5 +1,7 @@
 import { useState } from "react";
 import EditUser from "./EditUser";
+import "./Boxes.css";
+
 
 const User = (props) => {
   const [showForm, setShowForm] = useState(false);
@@ -12,7 +14,7 @@ const User = (props) => {
         </h1>
         <p id='email'>Email: {props.email}</p>
         <p id='avatar'>Avatar: {props.avatar}</p>
-        <button style={{ background: 'red', color: 'black'  }} onClick={() => props.deleteUserYo(props.id)}>delete</button>
+        <button class='delete' onClick={() => props.deleteUserYo(props.id)}>delete</button>
     </>
       
     );

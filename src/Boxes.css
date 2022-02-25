@@ -5,6 +5,7 @@
   border-width: 4px;
   background-color: rgb(88, 136, 88);
   border-radius: 50px;
+  font-family: cursive;
   
    
 }
@@ -16,6 +17,7 @@
   padding: 20px;
   margin: 30px;
   border-radius: 50px;
+  font-family: cursive;
 
 
 }
@@ -26,6 +28,7 @@
   padding: 20px;
   margin: 30px;
   border-radius: 50px;
+  font-family: cursive;
 
 
 }
@@ -49,4 +52,16 @@
 #editUser {
   text-decoration: underline;
   text-underline-offset: 1px;
+}
+.delete {
+  font-family: cursive;
+  background-color: red;
+  color: black;
+}
+
+.addUser {
+  background-color: green;
+  color: white;
+ font-family: cursive;
+
 }

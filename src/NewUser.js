@@ -41,7 +41,7 @@ const NewUser = (props) => {
         <input style={{ borderRadius: '10px'}} placeholder='Avatar link...' value={foo} onChange={(e)=> {bar(e.target.value)}} />
         <br />
         <br />
-        <button style={{ background: 'green', color: 'white'  }}>Add User</button>
+        <button class='addUser'>Add User</button>
       </form>
     </div>
   );
